@@ -8,6 +8,7 @@ public class Rectangle {
 	
 	public Rectangle(float longueur, float largeur) {
 		super();
+		System.out.println("public Rectangle(float longueur, float largeur)");
 		this.longueur = longueur;
 		this.largeur = largeur;
 		cpt++;
@@ -15,6 +16,7 @@ public class Rectangle {
 	
 	public Rectangle() {
 		super();
+		System.out.println("public Rectangle()");
 		this.longueur = 0;
 		this.largeur = 0;
 		cpt++;
