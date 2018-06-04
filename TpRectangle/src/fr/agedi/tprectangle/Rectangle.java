@@ -5,25 +5,20 @@ public class Rectangle {
 	private float largeur;
 	private static int cpt=0;
 	
-	private static Rectangle instance;
 	
-	public static Rectangle getInstance(float longueur, float largeur) {
-		if(instance == null) {
-			instance = new Rectangle(longueur,largeur);
-		}
-		instance.largeur = largeur;
-		instance.longueur = longueur;
-		
-		return instance;
-	}
-	
-	private Rectangle(float longueur, float largeur) {
+	public Rectangle(float longueur, float largeur) {
 		super();
 		this.longueur = longueur;
 		this.largeur = largeur;
 		cpt++;
 	}
 	
+	public Rectangle() {
+		super();
+		this.longueur = 0;
+		this.largeur = 0;
+		cpt++;
+	}	
 	public float getLongueur() {
 		return longueur;
 	}
