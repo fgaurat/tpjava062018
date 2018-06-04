@@ -1,4 +1,4 @@
-package fr.agedi.tprectangle;
+package fr.agedi.tpcarre;
 
 public class Main {
 	public static void main(String argv[]) {
