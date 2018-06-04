@@ -1,6 +1,6 @@
 package fr.agedi.tpcarre;
 
-public class Rectangle {
+public class Rectangle implements CalcMath{
 	private float longueur;
 	private float largeur;
 	private static int cpt=0;

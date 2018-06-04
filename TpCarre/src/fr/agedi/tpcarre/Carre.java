@@ -5,7 +5,7 @@ public class Carre extends Rectangle{
 	private float cote;
 
 	public Carre(float cote) {
-		super();
+		super(cote,cote);
 		System.out.println("public Carre(float cote)");
 		this.cote = cote;
 	}
@@ -14,6 +14,7 @@ public class Carre extends Rectangle{
 	public Carre() {
 		super();
 		System.out.println("public Carre()");
+		
 		this.cote = 0;
 
 	}
@@ -26,6 +27,12 @@ public class Carre extends Rectangle{
 
 	public void setCote(float cote) {
 		this.cote = cote;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Carre [cote=" + cote + "]";
 	}
 	
 	
