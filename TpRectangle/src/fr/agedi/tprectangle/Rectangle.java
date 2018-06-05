@@ -1,7 +1,7 @@
 package fr.agedi.tprectangle;
 
 public class Rectangle {
-	private float longueur;
+	float longueur;
 	private float largeur;
 	private static int cpt=0;
 	
@@ -42,7 +42,8 @@ public class Rectangle {
 
 	@Override
 	public String toString() {
-		return "Rectangle [longueur=" + longueur + ", largeur=" + largeur + "]"+this.hashCode();
+		String s = super.toString();
+		return s+"Rectangle [longueur=" + longueur + ", largeur=" + largeur + "]"+this.hashCode();
 	}
 
 	

@@ -1,13 +1,16 @@
-package fr.agedi.tprectangle;
+package fr.agedi.tprectangle.main;
+
+import fr.agedi.tprectangle.Rectangle;
 
 public class Main {
 	public static void main(String argv[]) {
 		
-
+		
 
 		
 
 		Rectangle r = new Rectangle(1, 2);
+	
 		System.out.println(Rectangle.getCpt());
 		Rectangle r1 = new Rectangle(1, 2);
 		System.out.println(Rectangle.getCpt());
